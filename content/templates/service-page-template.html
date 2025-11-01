@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{SERVICE_TITLE}} - Stone OnePoint Solutions Pvt. Ltd.</title>
+    <meta name="description" content="{{SERVICE_DESCRIPTION}}">
+    <meta name="keywords" content="{{SERVICE_KEYWORDS}}">
+    <meta name="author" content="Stone OnePoint Solutions Pvt. Ltd.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.stoneonepointsolutions.in/{{SERVICE_URL}}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{SERVICE_TITLE}} - Stone OnePoint Solutions Pvt. Ltd.">
+    <meta property="og:description" content="{{SERVICE_DESCRIPTION}}">
+    <meta property="og:url" content="https://www.stoneonepointsolutions.in/{{SERVICE_URL}}">
+    <meta property="og:type" content="service">
+    <meta property="og:image" content="https://www.stoneonepointsolutions.in/assets/img/{{SERVICE_IMAGE}}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!-- Service Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "{{SERVICE_TITLE}}",
+        "description": "{{SERVICE_DESCRIPTION}}",
+        "url": "https://www.stoneonepointsolutions.in/{{SERVICE_URL}}",
+        "image": "https://www.stoneonepointsolutions.in/assets/img/{{SERVICE_IMAGE}}",
+        "provider": {
+            "@type": "Organization",
+            "name": "Stone OnePoint Solutions Pvt. Ltd.",
+            "url": "https://www.stoneonepointsolutions.in",
+            "telephone": "+91 8595378782",
+            "email": "hr@stoneonepointsolutions.in",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        },
+        "serviceType": "{{SERVICE_TYPE}}",
+        "areaServed": {
+            "@type": "Country",
+            "name": "India"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-area">
+        {{HEADER_CONTENT}}
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Service Header -->
+        <section class="service-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>{{SERVICE_H1}}</h1>
+                        <p class="service-subtitle">{{SERVICE_SUBTITLE}}</p>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#services">Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">{{SERVICE_TITLE}}</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="service-overview">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="service-content">
+                            <h2>{{SERVICE_OVERVIEW_TITLE}}</h2>
+                            <p>{{SERVICE_OVERVIEW_CONTENT}}</p>
+                            
+                            <!-- Service Features -->
+                            <div class="service-features">
+                                <h3>Key Features</h3>
+                                <ul>
+                                    {{SERVICE_FEATURES_LIST}}
+                                </ul>
+                            </div>
+                            
+                            <!-- Service Benefits -->
+                            <div class="service-benefits">
+                                <h3>Benefits</h3>
+                                <div class="row">
+                                    {{SERVICE_BENEFITS_CONTENT}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-sidebar">
+                            <!-- Service Image -->
+                            <div class="service-image">
+                                <img src="assets/img/{{SERVICE_IMAGE}}" alt="{{SERVICE_TITLE}}" class="img-fluid">
+                            </div>
+                            
+                            <!-- Contact CTA -->
+                            <div class="service-cta">
+                                <h4>Need This Service?</h4>
+                                <p>Contact us today to discuss your requirements.</p>
+                                <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                                <div class="contact-info">
+                                    <p><strong>Phone:</strong> +91 8595378782</p>
+                                    <p><strong>Email:</strong> hr@stoneonepointsolutions.in</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Services -->
+        <section class="related-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Related Services</h2>
+                        <div class="row">
+                            {{RELATED_SERVICES_CONTENT}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-area">
+        {{FOOTER_CONTENT}}
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <!-- Analytics -->
+    {{ANALYTICS_CODE}}
+</body>
+</html>

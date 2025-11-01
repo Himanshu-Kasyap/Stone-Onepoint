@@ -1,0 +1,67 @@
+{
+  "environment": "development",
+  "debug": true,
+  "minification": false,
+  "compression": false,
+  "caching": false,
+  "baseUrl": "http://localhost:3000",
+  "analytics": {
+    "enabled": false,
+    "googleAnalytics": "",
+    "googleTagManager": "",
+    "facebookPixel": ""
+  },
+  "security": {
+    "strictMode": false,
+    "httpsOnly": false,
+    "securityHeaders": false,
+    "csrfProtection": false,
+    "rateLimiting": false
+  },
+  "performance": {
+    "imageLazyLoading": false,
+    "cssMinification": false,
+    "jsMinification": false,
+    "bundling": false,
+    "imageOptimization": false,
+    "webpConversion": false
+  },
+  "seo": {
+    "robotsIndex": false,
+    "sitemapGeneration": false,
+    "structuredData": false,
+    "openGraph": false,
+    "twitterCards": false
+  },
+  "contact": {
+    "formProcessing": "local",
+    "emailDelivery": "log",
+    "smtpHost": "",
+    "smtpPort": "",
+    "smtpUser": "",
+    "smtpPassword": "",
+    "fromEmail": "hr@stoneonepointsolutions.in",
+    "toEmail": "hr@stoneonepointsolutions.in"
+  },
+  "database": {
+    "enabled": false,
+    "type": "none",
+    "host": "",
+    "port": "",
+    "name": "",
+    "user": "",
+    "password": ""
+  },
+  "logging": {
+    "level": "debug",
+    "file": "logs/development.log",
+    "console": true
+  },
+  "features": {
+    "contactForm": true,
+    "newsletter": false,
+    "blog": false,
+    "testimonials": true,
+    "clientLogos": true
+  }
+}

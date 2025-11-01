@@ -1,0 +1,139 @@
+{
+  "services": [
+    {
+      "id": "permanent-recruitment",
+      "name": "Permanent Recruitment",
+      "title": "Permanent Recruitment Services",
+      "description": "Comprehensive permanent recruitment solutions to help you find the right talent for your organization.",
+      "shortDescription": "Find the right permanent talent for your organization with our comprehensive recruitment services.",
+      "url": "permanent-recruitment.html",
+      "image": "hr.jpg",
+      "icon": "bx bx-user-plus",
+      "category": "Recruitment",
+      "keywords": ["permanent recruitment", "hiring", "talent acquisition", "job placement"],
+      "features": [
+        "End-to-end recruitment process",
+        "Industry-specific expertise",
+        "Candidate screening and assessment",
+        "Background verification",
+        "Post-placement support"
+      ],
+      "benefits": [
+        "Reduced time-to-hire",
+        "Quality candidate pool",
+        "Cost-effective solutions",
+        "Expert consultation"
+      ],
+      "serviceType": "Recruitment Service",
+      "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    },
+    {
+      "id": "temporary-staffing",
+      "name": "Temporary Staffing",
+      "title": "Temporary Staffing Solutions",
+      "description": "Flexible temporary staffing solutions to meet your short-term and project-based requirements.",
+      "shortDescription": "Flexible staffing solutions for your temporary and project-based workforce needs.",
+      "url": "temporary-staffing.html",
+      "image": "tempbg.jpg",
+      "icon": "bx bx-time",
+      "category": "Staffing",
+      "keywords": ["temporary staffing", "contract hiring", "project staffing", "flexible workforce"],
+      "features": [
+        "Quick deployment",
+        "Skilled professionals",
+        "Flexible contracts",
+        "Compliance management",
+        "Performance monitoring"
+      ],
+      "benefits": [
+        "Cost flexibility",
+        "Rapid scaling",
+        "Reduced administrative burden",
+        "Access to specialized skills"
+      ],
+      "serviceType": "Staffing Service",
+      "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    },
+    {
+      "id": "executive-hiring",
+      "name": "Executive Hiring",
+      "title": "Executive Search & Hiring",
+      "description": "Specialized executive search services to identify and recruit top-level leadership talent.",
+      "shortDescription": "Executive search services for senior leadership and C-level positions.",
+      "url": "executive-hiring.html",
+      "image": "leader-1.jpg",
+      "icon": "bx bx-crown",
+      "category": "Executive Search",
+      "keywords": ["executive search", "leadership hiring", "C-level recruitment", "senior management"],
+      "features": [
+        "Executive search methodology",
+        "Leadership assessment",
+        "Confidential recruitment",
+        "Market mapping",
+        "Succession planning support"
+      ],
+      "benefits": [
+        "Access to top talent",
+        "Confidential process",
+        "Expert evaluation",
+        "Strategic consultation"
+      ],
+      "serviceType": "Executive Search Service",
+      "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    },
+    {
+      "id": "payroll-outsourcing",
+      "name": "Payroll Outsourcing",
+      "title": "Payroll Management Services",
+      "description": "Complete payroll outsourcing solutions to streamline your HR operations and ensure compliance.",
+      "shortDescription": "Comprehensive payroll management and outsourcing services for businesses of all sizes.",
+      "url": "payroll-outsourcing.html",
+      "image": "mis.jpg",
+      "icon": "bx bx-calculator",
+      "category": "HR Services",
+      "keywords": ["payroll outsourcing", "payroll management", "HR services", "compliance"],
+      "features": [
+        "Complete payroll processing",
+        "Tax compliance management",
+        "Employee self-service portal",
+        "Statutory compliance",
+        "Reporting and analytics"
+      ],
+      "benefits": [
+        "Reduced operational costs",
+        "Compliance assurance",
+        "Time savings",
+        "Accurate processing"
+      ],
+      "serviceType": "HR Outsourcing Service",
+      "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    },
+    {
+      "id": "training-development",
+      "name": "Training & Development",
+      "title": "Corporate Training Programs",
+      "description": "Customized training and development programs to enhance your workforce capabilities.",
+      "shortDescription": "Professional training and development programs to enhance employee skills and performance.",
+      "url": "training.html",
+      "image": "training.jpg",
+      "icon": "bx bx-book-open",
+      "category": "Training",
+      "keywords": ["corporate training", "skill development", "employee training", "professional development"],
+      "features": [
+        "Customized training modules",
+        "Expert trainers",
+        "Multiple delivery formats",
+        "Assessment and certification",
+        "Progress tracking"
+      ],
+      "benefits": [
+        "Enhanced productivity",
+        "Skill development",
+        "Employee engagement",
+        "Performance improvement"
+      ],
+      "serviceType": "Training Service",
+      "locations": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    }
+  ]
+}

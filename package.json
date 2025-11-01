@@ -1,0 +1,70 @@
+{
+  "name": "stone-onepoint-solutions-website",
+  "version": "1.0.0",
+  "description": "Deployment-ready website for Stone OnePoint Solutions Pvt. Ltd.",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:dev": "node scripts/build.js development",
+    "build:staging": "node scripts/build.js staging",
+    "build:prod": "node scripts/build.js production",
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize:assets": "node scripts/optimize-assets.js",
+    "update:asset-refs": "node scripts/update-asset-references.js",
+    "setup:lazy-loading": "node scripts/setup-lazy-loading.js",
+    "optimize:all": "npm run optimize:images && npm run optimize:assets && npm run update:asset-refs && npm run setup:lazy-loading",
+    "seo:optimize-meta": "node scripts/seo-meta-optimizer.js",
+    "seo:structured-data": "node scripts/structured-data-generator.js",
+    "seo:supporting-files": "node scripts/seo-supporting-files-generator.js",
+    "seo:optimize-all": "npm run seo:optimize-meta && npm run seo:structured-data && npm run seo:supporting-files",
+    "accessibility:enhance": "node scripts/apply-accessibility-enhancements.js",
+    "accessibility:validate": "node tests/accessibility-validation.js",
+    "responsive:enhance": "node scripts/responsive-design-enhancer.js",
+    "responsive:fix-landmarks": "node scripts/fix-main-landmarks.js",
+    "performance:monitor": "node scripts/performance-monitor.js",
+    "performance:test": "node tests/performance-test.js",
+    "validate": "node tests/validation.js",
+    "validate:pre-deployment": "node scripts/pre-deployment-validator.js",
+    "validate:post-deployment": "node scripts/post-deployment-verifier.js",
+    "validate:security": "node scripts/security-scanner.js",
+    "validate:checklist": "node scripts/deployment-validation-checklist.js",
+    "validate:complete": "node scripts/deployment-validation-checklist.js --mode full",
+    "validate:quick": "node scripts/deployment-validation-checklist.js --mode quick",
+    "report:readiness": "node scripts/deployment-readiness-report.js",
+    "test:validation": "node tests/deployment-validation-test.js",
+    "deploy:dry-run": "./scripts/deploy.sh --dry-run",
+    "deploy:staging": "./scripts/deploy.sh --environment staging",
+    "deploy:prod": "./scripts/deploy.sh --environment production",
+    "content:validate": "node content/scripts/content-validator.js",
+    "content:update": "node content/scripts/content-updater.js all",
+    "content:update-services": "node content/scripts/content-updater.js service",
+    "content:update-sitemap": "node content/scripts/content-updater.js sitemap",
+    "content:validate-data": "node content/scripts/content-updater.js validate",
+    "backup:create": "node content/scripts/backup-manager.js create",
+    "backup:list": "node content/scripts/backup-manager.js list",
+    "backup:restore": "node content/scripts/backup-manager.js restore",
+    "backup:cleanup": "node content/scripts/backup-manager.js cleanup"
+  },
+  "keywords": [
+    "website",
+    "hr-solutions",
+    "recruitment",
+    "stone-onepoint-solutions"
+  ],
+  "author": "Stone OnePoint Solutions Pvt. Ltd.",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "jsdom": "^22.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "private"
+  },
+  "homepage": "https://www.stoneonepointsolutions.in"
+}

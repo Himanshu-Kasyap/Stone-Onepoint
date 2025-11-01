@@ -1,0 +1,194 @@
+<!-- Content Block Templates for Consistent Formatting -->
+
+<!-- Header Template -->
+<template id="header-template">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header-contact">
+                        <span><i class="bx bx-phone"></i> +91 8595378782</span>
+                        <span><i class="bx bx-envelope"></i> hr@stoneonepointsolutions.in</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="header-social">
+                        <a href="https://www.facebook.com/stoneonepointsolutions/" target="_blank" aria-label="Facebook">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/stone-onepoint-solutions/" target="_blank" aria-label="LinkedIn">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" alt="Stone OnePoint Solutions Pvt. Ltd." width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="company-profile.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="permanent-recruitment.html">Permanent Recruitment</a></li>
+                            <li><a class="dropdown-item" href="temporary-staffing.html">Temporary Staffing</a></li>
+                            <li><a class="dropdown-item" href="executive-hiring.html">Executive Hiring</a></li>
+                            <li><a class="dropdown-item" href="payroll-outsourcing.html">Payroll Outsourcing</a></li>
+                            <li><a class="dropdown-item" href="training.html">Training & Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</template>
+
+<!-- Footer Template -->
+<template id="footer-template">
+    <div class="footer-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-widget">
+                        <h3>Stone OnePoint Solutions Pvt. Ltd.</h3>
+                        <p>India's premier HR solutions partner, providing comprehensive recruitment, staffing, and training services across multiple industries.</p>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/stoneonepointsolutions/" target="_blank" aria-label="Facebook">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/stone-onepoint-solutions/" target="_blank" aria-label="LinkedIn">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-widget">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="company-profile.html">About Us</a></li>
+                            <li><a href="permanent-recruitment.html">Recruitment Services</a></li>
+                            <li><a href="training.html">Training Programs</a></li>
+                            <li><a href="clients.html">Our Clients</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-widget">
+                        <h3>Contact Information</h3>
+                        <div class="footer-contact">
+                            <p><i class="bx bx-phone"></i> +91 8595378782</p>
+                            <p><i class="bx bx-envelope"></i> hr@stoneonepointsolutions.in</p>
+                            <p><i class="bx bx-map"></i> Multiple locations across India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; 2024 Stone OnePoint Solutions Pvt. Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<!-- Service Card Template -->
+<template id="service-card-template">
+    <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="{{SERVICE_ICON}}"></i>
+            </div>
+            <h3>{{SERVICE_NAME}}</h3>
+            <p>{{SERVICE_DESCRIPTION}}</p>
+            <a href="{{SERVICE_URL}}" class="service-link">Learn More <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+    </div>
+</template>
+
+<!-- Client Logo Template -->
+<template id="client-logo-template">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="client-logo">
+            <img src="assets/img/client-logos/{{CLIENT_LOGO}}" alt="{{CLIENT_NAME}}" class="img-fluid">
+        </div>
+    </div>
+</template>
+
+<!-- Testimonial Template -->
+<template id="testimonial-template">
+    <div class="testimonial-item">
+        <div class="testimonial-content">
+            <p>"{{TESTIMONIAL_TEXT}}"</p>
+        </div>
+        <div class="testimonial-author">
+            <h4>{{AUTHOR_NAME}}</h4>
+            <span>{{AUTHOR_POSITION}}, {{AUTHOR_COMPANY}}</span>
+        </div>
+    </div>
+</template>
+
+<!-- Contact Form Template -->
+<template id="contact-form-template">
+    <form class="contact-form" action="contact-form-handler.php" method="POST">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </div>
+    </form>
+</template>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PAGE_TITLE}} - Stone OnePoint Solutions Pvt. Ltd.</title>
+    <meta name="description" content="{{PAGE_DESCRIPTION}}">
+    <meta name="keywords" content="{{PAGE_KEYWORDS}}">
+    <meta name="author" content="Stone OnePoint Solutions Pvt. Ltd.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.stoneonepointsolutions.in/{{PAGE_URL}}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{PAGE_TITLE}} - Stone OnePoint Solutions Pvt. Ltd.">
+    <meta property="og:description" content="{{PAGE_DESCRIPTION}}">
+    <meta property="og:url" content="https://www.stoneonepointsolutions.in/{{PAGE_URL}}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.stoneonepointsolutions.in/assets/img/logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{PAGE_TITLE}} - Stone OnePoint Solutions Pvt. Ltd.">
+    <meta name="twitter:description" content="{{PAGE_DESCRIPTION}}">
+    <meta name="twitter:image" content="https://www.stoneonepointsolutions.in/assets/img/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{PAGE_TITLE}}",
+        "description": "{{PAGE_DESCRIPTION}}",
+        "url": "https://www.stoneonepointsolutions.in/{{PAGE_URL}}",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Stone OnePoint Solutions Pvt. Ltd.",
+            "url": "https://www.stoneonepointsolutions.in"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Stone OnePoint Solutions Pvt. Ltd.",
+            "url": "https://www.stoneonepointsolutions.in",
+            "logo": "https://www.stoneonepointsolutions.in/assets/img/logo.png"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-area">
+        {{HEADER_CONTENT}}
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>{{PAGE_H1}}</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                {{BREADCRUMB_ITEMS}}
+                                <li class="breadcrumb-item active" aria-current="page">{{PAGE_TITLE}}</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Content -->
+        <section class="page-content">
+            <div class="container">
+                {{PAGE_CONTENT}}
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-area">
+        {{FOOTER_CONTENT}}
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <!-- Analytics -->
+    {{ANALYTICS_CODE}}
+</body>
+</html>

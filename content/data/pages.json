@@ -1,0 +1,96 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "url": "index.html",
+      "description": "Stone OnePoint Solutions - India's premier HR solutions partner providing recruitment, staffing, and training services.",
+      "keywords": ["HR solutions", "recruitment", "staffing", "training", "India"],
+      "priority": 1.0,
+      "changeFreq": "weekly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "about",
+      "title": "Company Profile",
+      "url": "company-profile.html",
+      "description": "Learn about Stone OnePoint Solutions - our mission, vision, values, and commitment to excellence in HR services.",
+      "keywords": ["company profile", "about us", "HR company", "mission", "vision"],
+      "priority": 0.9,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "contact",
+      "title": "Contact Us",
+      "url": "contact.html",
+      "description": "Get in touch with Stone OnePoint Solutions for your HR needs. Contact information and inquiry form.",
+      "keywords": ["contact", "get in touch", "HR consultation", "inquiry"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "clients",
+      "title": "Our Clients",
+      "url": "clients.html",
+      "description": "Discover the diverse range of clients who trust Stone OnePoint Solutions for their HR needs.",
+      "keywords": ["clients", "portfolio", "case studies", "testimonials"],
+      "priority": 0.7,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    }
+  ],
+  "servicePages": [
+    {
+      "id": "permanent-recruitment",
+      "title": "Permanent Recruitment Services",
+      "url": "permanent-recruitment.html",
+      "description": "Comprehensive permanent recruitment solutions to help you find the right talent for your organization.",
+      "keywords": ["permanent recruitment", "hiring", "talent acquisition", "job placement"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "temporary-staffing",
+      "title": "Temporary Staffing Solutions",
+      "url": "temporary-staffing.html",
+      "description": "Flexible temporary staffing solutions to meet your short-term and project-based requirements.",
+      "keywords": ["temporary staffing", "contract hiring", "project staffing", "flexible workforce"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "executive-hiring",
+      "title": "Executive Search & Hiring",
+      "url": "executive-hiring.html",
+      "description": "Specialized executive search services to identify and recruit top-level leadership talent.",
+      "keywords": ["executive search", "leadership hiring", "C-level recruitment", "senior management"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "payroll-outsourcing",
+      "title": "Payroll Management Services",
+      "url": "payroll-outsourcing.html",
+      "description": "Complete payroll outsourcing solutions to streamline your HR operations and ensure compliance.",
+      "keywords": ["payroll outsourcing", "payroll management", "HR services", "compliance"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    },
+    {
+      "id": "training-development",
+      "title": "Corporate Training Programs",
+      "url": "training.html",
+      "description": "Customized training and development programs to enhance your workforce capabilities.",
+      "keywords": ["corporate training", "skill development", "employee training", "professional development"],
+      "priority": 0.8,
+      "changeFreq": "monthly",
+      "lastModified": "2024-10-31"
+    }
+  ]
+}

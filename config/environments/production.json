@@ -1,0 +1,67 @@
+{
+  "environment": "production",
+  "debug": false,
+  "minification": true,
+  "compression": true,
+  "caching": true,
+  "baseUrl": "https://www.stoneonepointsolutions.in",
+  "analytics": {
+    "enabled": true,
+    "googleAnalytics": "UA-252401001-1",
+    "googleTagManager": "",
+    "facebookPixel": ""
+  },
+  "security": {
+    "strictMode": true,
+    "httpsOnly": true,
+    "securityHeaders": true,
+    "csrfProtection": true,
+    "rateLimiting": true
+  },
+  "performance": {
+    "imageLazyLoading": true,
+    "cssMinification": true,
+    "jsMinification": true,
+    "bundling": true,
+    "imageOptimization": true,
+    "webpConversion": true
+  },
+  "seo": {
+    "robotsIndex": true,
+    "sitemapGeneration": true,
+    "structuredData": true,
+    "openGraph": true,
+    "twitterCards": true
+  },
+  "contact": {
+    "formProcessing": "server",
+    "emailDelivery": "smtp",
+    "smtpHost": "${SMTP_HOST}",
+    "smtpPort": "${SMTP_PORT}",
+    "smtpUser": "${SMTP_USER}",
+    "smtpPassword": "${SMTP_PASSWORD}",
+    "fromEmail": "hr@stoneonepointsolutions.in",
+    "toEmail": "hr@stoneonepointsolutions.in"
+  },
+  "database": {
+    "enabled": false,
+    "type": "mysql",
+    "host": "${DB_HOST}",
+    "port": "${DB_PORT}",
+    "name": "${DB_NAME}",
+    "user": "${DB_USER}",
+    "password": "${DB_PASSWORD}"
+  },
+  "logging": {
+    "level": "error",
+    "file": "logs/production.log",
+    "console": false
+  },
+  "features": {
+    "contactForm": true,
+    "newsletter": true,
+    "blog": false,
+    "testimonials": true,
+    "clientLogos": true
+  }
+}

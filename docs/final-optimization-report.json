@@ -1,0 +1,206 @@
+{
+  "timestamp": "2025-11-01T08:35:23.884Z",
+  "summary": {
+    "performance": 91,
+    "security": 100,
+    "seo": 74,
+    "accessibility": 96
+  },
+  "details": {
+    "performance": {
+      "images": {
+        "total": 89,
+        "optimized": 89,
+        "sizeBefore": "8.88 MB",
+        "sizeAfter": "8.88 MB",
+        "savings": "0 Bytes"
+      },
+      "assets": {
+        "css": {
+          "total": 18,
+          "minified": 10,
+          "totalSize": "592.48 KB"
+        },
+        "js": {
+          "total": 22,
+          "minified": 16,
+          "totalSize": "402.97 KB"
+        }
+      },
+      "caching": {
+        "htaccessExists": true,
+        "cachingRules": true,
+        "status": "configured"
+      }
+    },
+    "security": {
+      "headers": {
+        "csp": true,
+        "xframe": true,
+        "xss": true,
+        "hsts": true
+      },
+      "https": {
+        "filesChecked": 121,
+        "issuesFound": 0,
+        "issues": []
+      },
+      "forms": {
+        "phpHandler": true,
+        "csrfProtection": true,
+        "status": "secure"
+      }
+    },
+    "seo": {
+      "metaTags": {
+        "totalPages": 121,
+        "withTitle": 121,
+        "withDescription": 102,
+        "withKeywords": 33,
+        "issues": [
+          {
+            "file": "assets\\img\\client-logos\\bijak.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\electricpe.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\enerjazz.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\green-tiger.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\hindi-company.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\illusion-dental.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\infinity.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\jindal.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\ktl.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\livpure.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\magicpin.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\rupeek.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\scrap-uncle.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\snabbit.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\timbl.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\togopool.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\wheelseye.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "assets\\img\\client-logos\\zypp.html",
+            "missing": [
+              "description"
+            ]
+          },
+          {
+            "file": "test-contact-form.html",
+            "missing": [
+              "description"
+            ]
+          }
+        ]
+      },
+      "structuredData": {
+        "totalPages": 121,
+        "withStructuredData": 29
+      },
+      "supportingFiles": {
+        "sitemap": true,
+        "robots": true,
+        "status": "complete"
+      }
+    },
+    "accessibility": {
+      "cssExists": true,
+      "features": {
+        "ariaLabels": 926,
+        "altTags": 660,
+        "skipLinks": 118
+      },
+      "totalPages": 121,
+      "responsive": {
+        "cssExists": true,
+        "viewportTags": 102,
+        "totalPages": 121
+      }
+    },
+    "errors": []
+  },
+  "recommendations": [
+    "Fix missing meta tags on 19 pages"
+  ]
+}

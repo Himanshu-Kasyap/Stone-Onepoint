@@ -1,0 +1,59 @@
+{
+  "site": {
+    "name": "Stone OnePoint Solutions Pvt. Ltd.",
+    "tagline": "India's Premier HR Solutions Partner",
+    "baseUrl": "https://www.stoneonepointsolutions.in",
+    "language": "en",
+    "charset": "UTF-8"
+  },
+  "company": {
+    "legalName": "Stone OnePoint Solutions Pvt. Ltd.",
+    "displayName": "Stone OnePoint Solutions",
+    "description": "India's premier HR solutions partner, providing comprehensive recruitment, staffing, and training services across multiple industries.",
+    "founded": "2015",
+    "industry": "Human Resources Services",
+    "employees": "50-200"
+  },
+  "contact": {
+    "phone": "+91 8595378782",
+    "email": "hr@stoneonepointsolutions.in",
+    "website": "https://www.stoneonepointsolutions.in",
+    "address": {
+      "country": "India",
+      "regions": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Hyderabad"]
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/stoneonepointsolutions/",
+    "linkedin": "https://www.linkedin.com/company/stone-onepoint-solutions/",
+    "twitter": "",
+    "instagram": ""
+  },
+  "analytics": {
+    "googleAnalytics": "UA-252401001-1",
+    "googleTagManager": "",
+    "facebookPixel": ""
+  },
+  "seo": {
+    "defaultTitle": "Stone OnePoint Solutions Pvt. Ltd. - HR Solutions Partner",
+    "defaultDescription": "India's premier HR solutions partner providing recruitment, staffing, training, and payroll services across multiple industries.",
+    "defaultKeywords": ["HR solutions", "recruitment services", "staffing solutions", "training programs", "payroll outsourcing", "India"],
+    "author": "Stone OnePoint Solutions Pvt. Ltd.",
+    "robots": "index, follow",
+    "sitemap": "/sitemap.xml"
+  },
+  "branding": {
+    "logo": "/assets/img/logo.png",
+    "favicon": "/assets/img/favicon.png",
+    "primaryColor": "#007bff",
+    "secondaryColor": "#6c757d",
+    "accentColor": "#28a745"
+  },
+  "features": {
+    "contactForm": true,
+    "newsletter": false,
+    "blog": false,
+    "multiLanguage": false,
+    "ecommerce": false
+  }
+}
