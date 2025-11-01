@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Message Error - Stone OnePoint Solutions Pvt. Ltd.</title>
+    <meta name="description" content="There was an error sending your message. Please try again or contact us directly.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+        }
+        .error-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: 20px;
+        }
+        .error-icon {
+            width: 80px;
+            height: 80px;
+            background: #dc3545;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            animation: shake 0.6s ease-in-out;
+        }
+        .error-icon::after {
+            content: '!';
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        .error-title {
+            color: #dc3545;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .error-message {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn-retry {
+            background: #dc3545;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+        .btn-retry:hover {
+            background: #c82333;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        .btn-home {
+            background: #6c757d;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .btn-home:hover {
+            background: #5a6268;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 14px;
+            color: #888;
+        }
+        .contact-direct {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-card">
+            <div class="error-icon"></div>
+            <h1 class="error-title">Message Could Not Be Sent</h1>
+            <p class="error-message">
+                We're sorry, but there was an error sending your message. 
+                This could be due to a temporary server issue or network problem.
+            </p>
+            
+            <div style="margin-bottom: 20px;">
+                <a href="contact.html" class="btn-retry">Try Again</a>
+                <a href="index.html" class="btn-home">Return to Home</a>
+            </div>
+            
+            <div class="contact-direct">
+                <h4 style="color: #333; margin-bottom: 15px;">Contact Us Directly</h4>
+                <p style="margin-bottom: 10px;">
+                    <strong>Phone:</strong> <a href="tel:+918595378782">+91 8595378782</a>
+                </p>
+                <p style="margin-bottom: 10px;">
+                    <strong>Email:</strong> <a href="mailto:hr@stoneonepointsolutions.in">hr@stoneonepointsolutions.in</a>
+                </p>
+                <p style="margin-bottom: 0;">
+                    <strong>Office Hours:</strong> Mon - Fri: 9 AM - 6 PM
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auto redirect after 15 seconds -->
+    <script>
+        setTimeout(function() {
+            window.location.href = 'contact.html';
+        }, 15000);
+    </script>
+</body>
+</html>

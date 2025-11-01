@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Form Test - Stone OnePoint Solutions</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href="assets/css/boxicons.min.css" rel="stylesheet">
+    <!-- Enhanced Forms CSS -->
+    <link href="assets/css/enhanced-forms.css" rel="stylesheet">
+    
+    <style>
+        body { padding: 40px; background: #f8f9fa; }
+        .test-container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .test-title { color: #4a90e2; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1 class="test-title">Contact Form Test</h1>
+        <p>This is a test page to verify the enhanced contact form functionality.</p>
+        
+        <form action="contact-form-handler.php" class="contact-form" method="post" novalidate="" role="form">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="form-group has-icon">
+                        <input class="form-control" name="name" placeholder="Your Name" required="" type="text" maxlength="50" autocomplete="name" aria-label="Your Name" aria-required="true" id="contact-name">
+                        <i class="form-icon bx bx-user"></i>
+                        <div class="invalid-feedback"></div>
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-sm-6">
+                    <div class="form-group has-icon">
+                        <input class="form-control" name="email" placeholder="Your Email" required="" type="email" maxlength="100" autocomplete="email" aria-label="Your Email" aria-required="true" id="contact-email">
+                        <i class="form-icon bx bx-envelope"></i>
+                        <div class="invalid-feedback"></div>
+                        <div class="valid-feedback">Valid email address!</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-sm-12">
+                    <div class="form-group has-icon">
+                        <input class="form-control" name="phone" placeholder="Your Phone" required="" type="tel" maxlength="15" autocomplete="tel" aria-label="Your Phone" aria-required="true" id="contact-phone">
+                        <i class="form-icon bx bx-phone"></i>
+                        <div class="invalid-feedback"></div>
+                        <div class="valid-feedback">Valid phone number!</div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12 col-md-12">
+                    <div class="form-group has-icon">
+                        <textarea class="form-control" cols="30" name="message" placeholder="Your Message" rows="5" required="" minlength="10" maxlength="1000" aria-label="Your Message" aria-required="true" id="contact-message"></textarea>
+                        <i class="form-icon bx bx-message-dots"></i>
+                        <div class="invalid-feedback"></div>
+                        <div class="valid-feedback">Great message!</div>
+                        <small class="form-text text-muted">Minimum 10 characters, maximum 1000 characters</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-12">
+                    <button class="btn btn-primary default-btn page-btn" type="submit">Send Message</button>
+                </div>
+            </div>
+        </form>
+        
+        <div class="mt-4">
+            <h3>Test Instructions:</h3>
+            <ul>
+                <li>Try typing in each field to see real-time validation</li>
+                <li>Submit with empty fields to see error messages</li>
+                <li>Submit with valid data to test the form handler</li>
+                <li>Watch for loading states and progress indicators</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- CSRF Protection -->
+    <script src="assets/js/csrf-protection.js"></script>
+    <!-- Enhanced Contact Form -->
+    <script src="assets/js/enhanced-contact-form.js"></script>
+</body>
+</html>
