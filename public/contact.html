@@ -149,6 +149,10 @@
 <link href="../assets/css/secure-forms.css" rel="stylesheet">
 <!-- Enhanced Forms CSS -->
 <link href="../assets/css/enhanced-forms.css" rel="stylesheet">
+<!-- Contact Page Styles -->
+<link href="../assets/css/contact-page-styles.css" rel="stylesheet">
+<!-- Header Debug Fix -->
+<link href="../assets/css/header-debug-fix.css" rel="stylesheet">
 <!-- Favicon -->
 <link href="../assets/img/favicon.png" rel="icon" type="image/png">
 <!-- Title tag already defined in head section -->
@@ -180,29 +184,25 @@
 </div>
 <div class="col-lg-4 col-md-4">
 <div class="header-content-right">
-<h1 id="contact-stone-onepoint-solutions">Contact Stone OnePoint Solutions</h1>
 <div class="flag-wrap">
 <ul>
 <li class="flag-item-top">
 <a class="flag-bar" href="#">
-<img alt="Decorative image" data-cfsrc="../assets/img/connect.png">
+<img alt="Decorative image" src="../assets/img/connect.png">
 <span>Connect With Us</span>
 </a>
 <ul class="flag-item-bottom">
 <!-- <li class="flag-item">
 <a href="#" class="flag-link">
-<img data-cfsrc="../assets/img/chat-us.svg" alt="Image"> Chat us </a>
+<img src="../assets/img/chat-us.svg" alt="Image"> Chat us </a>
 </li> -->
 <li class="flag-item">
 <a class="flag-link" href="tel:+91 8595378782" aria-label="Call +91 8595378782">
-<img alt="Decorative image" data-cfsrc="../assets/img/call.svg"> Call Us </a>
+<img alt="Decorative image" src="../assets/img/call.svg"> Call Us </a>
 </li>
 <li class="flag-item">
 <a class="flag-link" href="mailto:hr@stoneonepointsolutions.in" aria-label="Send email to hr@stoneonepointsolutions.in">
-<img alt="Decorative image" data-cfsrc="../assets/img/mail-us.svg"> Mail Us </a>
-</li>
-<li class="flag-item">
-
+<img alt="Decorative image" src="../assets/img/mail-us.svg"> Mail Us </a>
 </li>
 </ul>
 </li>
@@ -253,7 +253,7 @@
 <!-- Menu For Mobile Device -->
 <div class="mobile-nav" aria-label="Toggle mobile navigation menu" aria-expanded="false">
 <a class="logo" href="../index.html">
-<img alt="Logo" data-cfsrc="../assets/img/Picture1.png">
+<img alt="Logo" src="../assets/img/Picture1.png">
 </a>
 </div>
 <!-- Menu For Desktop Device -->
@@ -261,7 +261,7 @@
 <nav class="navbar navbar-expand-md navbar-light" role="navigation" id="navigation" aria-label="Main navigation">
 <div class="container">
 <a class="navbar-brand" href="../index.html">
-<img alt="Logo" data-cfsrc="../assets/img/Picture1.png">
+<img alt="Logo" src="../assets/img/Picture1.png">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav m-auto menu" role="navigation" aria-label="Main navigation" id="navigation">
@@ -339,7 +339,7 @@
 </button>
 <h2 class="modal-title" id="myModalLabel2">
 <a href="../index.html">
-<img alt="Logo" data-cfsrc="../assets/img/Picture1.png">
+<img alt="Logo" src="../assets/img/Picture1.png">
 </a>
 </h2>
 </div>
@@ -426,7 +426,133 @@
 </div>
 <!-- End Page Title Area -->
 <!-- Start Contact Area -->
-<main id="main-content" role="main"></main>
+<main id="main-content" role="main">
+<section class="contact-area ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
+<div class="contact-form">
+<div class="section-title text-left">
+<h2 id="get-in-touch">Get In Touch</h2>
+<p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+</div>
+<form id="contactForm" method="POST" action="contact-form-handler.php">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name*">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email*">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<input type="text" name="phone" id="phone" class="form-control" required data-error="Please enter your phone number" placeholder="Your Phone*">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6">
+<div class="form-group">
+<select name="service" id="service" class="form-control" required data-error="Please select a service">
+<option value="">Select Service*</option>
+<option value="Permanent Recruitment">Permanent Recruitment</option>
+<option value="Temporary Staffing">Temporary Staffing</option>
+<option value="Payroll Management">Payroll Management</option>
+<option value="Executive Hiring">Executive Hiring</option>
+<option value="Bulk Campus Hiring">Bulk Campus Hiring</option>
+<option value="Training and Development">Training and Development</option>
+<option value="General Inquiry">General Inquiry</option>
+</select>
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<div class="form-group">
+<input type="text" name="subject" id="subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject*">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<div class="form-group">
+<textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message*"></textarea>
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="col-lg-12 col-md-12">
+<button type="submit" class="default-btn">
+<i class="flaticon-right"></i>
+Send Message
+<span></span>
+</button>
+<div id="msgSubmit" class="h3 text-center hidden"></div>
+<div class="clearfix"></div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="contact-info">
+<div class="section-title text-left">
+<h2 id="contact-details">Contact Details</h2>
+<p>Reach out to us through any of the following channels</p>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-icon">
+<i class="flaticon-call"></i>
+</div>
+<div class="contact-info-text">
+<h3>Phone</h3>
+<p><a href="tel:+918595378782">+91 8595378782</a></p>
+</div>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-icon">
+<i class="flaticon-email"></i>
+</div>
+<div class="contact-info-text">
+<h3>Email</h3>
+<p><a href="mailto:hr@stoneonepointsolutions.in">hr@stoneonepointsolutions.in</a></p>
+</div>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-icon">
+<i class="flaticon-clock"></i>
+</div>
+<div class="contact-info-text">
+<h3>Business Hours</h3>
+<p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+Saturday: 9:00 AM - 1:00 PM<br>
+Sunday: Closed</p>
+</div>
+</div>
+<div class="contact-info-item">
+<div class="contact-info-icon">
+<i class="flaticon-web"></i>
+</div>
+<div class="contact-info-text">
+<h3>Follow Us</h3>
+<div class="contact-social">
+<a href="https://www.facebook.com/stoneonepointsolutions/" target="_blank" rel="noopener noreferrer">
+<i class="bx bxl-facebook"></i>
+</a>
+<a href="https://www.linkedin.com/company/stone-onepoint-solutions/" target="_blank" rel="noopener noreferrer">
+<i class="bx bxl-linkedin"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
 <!-- End Contact Area -->
 <!-- Start Map Area -->
 
